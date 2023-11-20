@@ -43,4 +43,22 @@ function sumArray(arr) {
   
   let numbers = [1, 2, [3, 4], [5, [6, 7]]];
   let result = sumArray(numbers);
-  console.log(result); // Output: 28
+//   console.log(result); 
+
+  //FIBONACCI SERIES ... 
+  function fibonacci(n) {
+    if (n == 0) {
+        return 0
+    } else if(n == 1){
+        return 1        
+
+    }else{
+        return fibonacci(n-1) + fibonacci(n-2)
+    }
+  }
+
+
+  for(let i = 0; i < 10; i++){
+    console.log(`Fibonacci(${i}): ${fibonacci(i)}`);
+  }
+  
