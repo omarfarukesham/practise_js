@@ -50,60 +50,60 @@ Write a program to print the following pattern using nested loops:
 55555
 */
 
-// function printPattern(x){
+function printPattern(x){
 
-// for(let i = 1; i < x; i++){
-//    if(i == 1){
-//       console.log(`${i}`)
-//    }
-//    if(i == 2){
-//       console.log(`${i}${i}`)
-//    }
-//    if(i == 3){
-//       console.log(`${i}${i}${i}`)
-//    }
-//    if(i == 4){
-//       console.log(`${i}${i}${i}${i}`)
-//    }
-//    if(i == 5){
-//       console.log(`${i}${i}${i}${i}${i}`)
-//    }
+for(let i = 1; i < x; i++){
+   if(i == 1){
+      console.log(`${i}`)
+   }
+   if(i == 2){
+      console.log(`${i}${i}`)
+   }
+   if(i == 3){
+      console.log(`${i}${i}${i}`)
+   }
+   if(i == 4){
+      console.log(`${i}${i}${i}${i}`)
+   }
+   if(i == 5){
+      console.log(`${i}${i}${i}${i}${i}`)
+   }
   
-// }
+}
 
-// }
+}
 
-// printPattern(6)
+printPattern(6)
 
-// function printPattern(x) {
-//    for (let i = 1; i <= x; i++) {
-//      let row = '';
-//      for (let j = 0; j < i; j++) {
-//        row += i;
-//      }
-//      console.log(row);
-//    }
-//  }
+function printPattern(x) {
+   for (let i = 1; i <= x; i++) {
+     let row = '';
+     for (let j = 0; j < i; j++) {
+       row += i;
+     }
+     console.log(row);
+   }
+ }
  
-//  printPattern(5);
+ printPattern(5);
  
 //closer ........ 
-// function createIncrement(){
-//    let count = 0 // private variable
+function createIncrement(){
+   let count = 0 // private variable
 
-//    return function(){
-//       return ++count;
-//    }
-// }
-// const counter = createIncrement()
+   return function(){
+      return ++count;
+   }
+}
+const counter = createIncrement()
 
-// console.log(counter()) 
-// console.log(counter()) 
-// console.log(counter()) 
+console.log(counter()) 
+console.log(counter()) 
+console.log(counter()) 
 
-// alert('Hi')
+alert('Hi')
 
-//callback 
+callback 
 
 function buttonClick(){
    alert('Thanks for Click me !')

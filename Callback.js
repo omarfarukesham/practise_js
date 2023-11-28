@@ -9,7 +9,7 @@
 
 
 function delayExecution(callback){
-    console.log('Hi i am delay Execution function ...')
+    console.log('Hi i am faster Execution function ...')
     setTimeout(() => {
         console.log('I am executing after 2 seconds')
         callback()
