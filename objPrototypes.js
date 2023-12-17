@@ -1,19 +1,19 @@
-// let animal = {
-//     eats: true
-// }
+let animal = {
+    eats: true
+}
 
-// let rabbits = {
-//     lives: 'Jungle',
-// __proto__: animal
-// } 
+let rabbits = {
+    lives: 'Jungle',
+__proto__: animal
+} 
 
-// for(let prop in rabbits){
-//     if(rabbits.hasOwnProperty(prop)){
-//         console.log(`Yes it's has own property of ${prop}`)
-//     }else{
-//         console.log(`inherited property of rabbits is ${prop}`)
-//     }
-// }
+for(let prop in rabbits){
+    if(rabbits.hasOwnProperty(prop)){
+        console.log(`Yes it's has own property of ${prop}`)
+    }else{
+        console.log(`inherited property of rabbits is ${prop}`)
+    }
+}
 
 // console.log(Object.keys(rabbits))
 // let head = {
