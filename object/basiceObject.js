@@ -93,7 +93,7 @@ const user = {
 
 
 let result = Object.getOwnPropertyNames(user)
-console.log(result)
+// console.log(result)
 
 // let getResult = result.map(([key, value])=>{
 //     return ` ${key}: ${value}`
@@ -101,7 +101,14 @@ console.log(result)
 
 // console.log(getResult)
 
+var a = {p: 10, q:20}
+// var b = {m: 100, k:200, __proto__:a}
+
+let b =  Object.create(a)
+b.m = 100,
+b.n = 200
 
 
 
+console.log(b.p)
 
